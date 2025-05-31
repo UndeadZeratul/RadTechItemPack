@@ -48,6 +48,7 @@ AddOptionMenu "HDAddonMenu"
     Submenu "$RADTECHITEMS_MENU", "RadTechItemPack"
 }
 
+
 OptionMenu CacoPlush
 {
 //these don't replace anything so the only
@@ -77,11 +78,11 @@ OptionMenu LeatherArmour
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_JACKETTEXT1", "white"
-	Slider "$MENU_WEPSPAWNRATE", "jacketarmour_greenarmour_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "jacketarmour_greenarmour_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar jacketarmour_greenarmour_spawn_bias"
 	StaticText ""
     StaticText  "$MENU_JACKETTEXT2", "white"
-	Slider "$MENU_WEPSPAWNRATE", "jacketarmour_bluearmour_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "jacketarmour_bluearmour_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar jacketarmour_bluearmour_spawn_bias"
 	StaticText ""
 	StaticText  "$MENU_JACKETBACKPACK", "white"
@@ -111,24 +112,23 @@ OptionMenu RadiCola
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_RDCTEXT1", "white"
-	Slider "$MENU_WEPSPAWNRATE", "radicola_healthbonus_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "radicola_healthbonus_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar radicola_healthbonus_bias"
  	StaticText ""
     StaticText  "$MENU_RDCTEXT2", "white"
-	Slider "$MENU_WEPSPAWNRATE", "radicola_medikit_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "radicola_medikit_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar radicola_medikit_bias"
  	StaticText ""
  	StaticText  "$MENU_RDCTEXT3", "white"
-	Slider "$MENU_WEPSPAWNRATE", "radicola_stimpack_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "radicola_stimpack_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar radicola_stimpack_bias"
  	StaticText ""
  	StaticText  "$MENU_RDCTEXT4", "white"
-	Slider "$MENU_WEPSPAWNRATE", "radicola_gorebits_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "radicola_gorebits_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar radicola_gorebits_bias"
 	StaticText ""
- 	StaticText ""
  	StaticText  "$MENU_RDCTEXT5", "white"
-	Slider "$MENU_WEPSPAWNRATE", "radicola_casingbits_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "radicola_casingbits_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar radicola_casingbits_bias"
 	StaticText ""
 	StaticText  "$MENU_RDCBACKPACK", "white"
@@ -158,11 +158,11 @@ OptionMenu FieldMedicKit
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_FMKTEXT1", "white"
-	Slider "$MENU_WEPSPAWNRATE", "fieldmedic_medikit_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "fieldmedic_medikit_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar fieldmedic_medikit_bias"
  	StaticText ""
     StaticText  "$MENU_FMKTEXT2", "white"
-	Slider "$MENU_WEPSPAWNRATE", "fieldmedic_stimpack_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "fieldmedic_stimpack_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar fieldmedic_stimpack_bias"
 	StaticText ""
 	StaticText  "$MENU_FMKBACKPACK", "white"
@@ -192,11 +192,11 @@ OptionMenu FirstAidSpray
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_FASTEXT1", "white"
-	Slider "$MENU_WEPSPAWNRATE", "firstaidspray_medikit_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "firstaidspray_medikit_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar firstaidspray_medikit_bias"
  	StaticText ""
     StaticText  "$MENU_FASTEXT2", "white"
-	Slider "$MENU_WEPSPAWNRATE", "firstaidspray_stimpack_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "firstaidspray_stimpack_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar firstaidspray_stimpack_bias"
 	StaticText ""
 	StaticText  "$MENU_FASBACKPACK", "white"
@@ -226,7 +226,7 @@ OptionMenu AntiGravBoots
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_GRAVBOOTSTEXT1", "white"
-	Slider "$MENU_WEPSPAWNRATE", "gravboots_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "gravboots_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar gravboots_spawn_bias"
 	StaticText ""
 	StaticText  "$MENU_GRAVBOOTSBACKPACK", "white"
@@ -256,7 +256,7 @@ OptionMenu AntiRadBoots
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_RADBOOTSTEXT1", "white"
-	Slider "$MENU_WEPSPAWNRATE", "radboots_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "radboots_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar radboots_spawn_bias"
 	StaticText ""
 	StaticText  "$MENU_RADBOOTSBACKPACK", "white"
@@ -287,7 +287,7 @@ OptionMenu Hoverboard
     StaticText ""
     StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_HOVERBOARDTEXT1", "white"
-    Slider "$MENU_WEPSPAWNRATE", "hoverboard_spawn_bias", 0.0, 1000, .01, 3
+    Slider "$MENU_WEPSPAWNRATE", "hoverboard_spawn_bias", 0.0, 100, .01, 2
     SafeCommand "$MENU_RESETWEP", "resetcvar hoverboard_spawn_bias"
     StaticText ""
     StaticText  "$MENU_REPLACEAFTERMAPLOAD", "white"
@@ -314,7 +314,7 @@ OptionMenu PogoStick
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_POGOSTICKTEXT1", "white"
-	Option "$MENU_WEPSPAWNRATE", "pogostick_spawn_bias", "DropBias"
+    Slider "$MENU_WEPSPAWNRATE", "pogotstick_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar pogostick_spawn_bias"
 	StaticText ""
     StaticText  "$MENU_REPLACEAFTERMAPLOAD", "white"
@@ -332,6 +332,7 @@ OptionMenu PogoStick
 //	StaticText "$MENU_POGOSTICKLORE3", "white"
 }
 
+
 OptionMenu HalfPack
 {
     Title "$MENU_TITLEHALFPACK"
@@ -341,7 +342,7 @@ OptionMenu HalfPack
     StaticText ""
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText  "$MENU_HALFPACKTEXT1", "white"
-	Slider "$MENU_WEPSPAWNRATE", "halfpack_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "halfpack_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar halfpack_spawn_bias"
 	StaticText ""
 	StaticText  "$MENU_HALFPACKBACKPACK", "white"
