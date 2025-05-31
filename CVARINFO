@@ -2,53 +2,54 @@
 
 // Field Medic Kit
 server bool fieldmedic_allowBackpacks = true;
-server int fieldmedic_stimpack_bias = 19;
-server int fieldmedic_medikit_bias = 19;
+server float fieldmedic_stimpack_bias = 0.4;
+server float fieldmedic_medikit_bias = 2.3;
 server bool fieldmedic_persistent_spawning = false;
 
 // First Aid Spray
 server bool firstaidspray_allowBackpacks = true;
-server int firstaidspray_stimpack_bias = 19;
-server int firstaidspray_medikit_bias = 19;
+server float firstaidspray_stimpack_bias = 0.4;
+server float firstaidspray_medikit_bias = 2.3;
 server bool firstaidspray_persistent_spawning = false;
 
 // Radi-Cola
 server bool radicola_allowBackpacks = true;
-server int radicola_healthbonus_bias = 19;
-server int radicola_stimpack_bias = 19;
-server int radicola_medikit_bias = 19;
-server int radicola_gorebits_bias = 19;
+server float radicola_healthbonus_bias = 13;
+server float radicola_stimpack_bias = 13;
+server float radicola_medikit_bias = 13;
+server float radicola_gorebits_bias = 13;
+server float radicola_casingbits_bias = 13;
 server bool radicola_persistent_spawning = false;
 
 // Half-Pack
 server bool halfpack_allowBackpacks = true;
-server int halfpack_spawn_bias = 19;
+server float halfpack_spawn_bias = 0.05;
 server bool halfpack_persistent_spawning = false;
 
 // Anti-Gravity Boots
 server bool gravboots_allowBackpacks = true;
-server int gravboots_spawn_bias = 19;
+server float gravboots_spawn_bias = 13;
 server bool gravboots_persistent_spawning = false;
 
 // Anti-Radiation Boots
 server bool radboots_allowBackpacks = true;
-server int radboots_spawn_bias = 19;
+server float radboots_spawn_bias = 13;
 server bool radboots_persistent_spawning = false;
 
 // Leather Armor
 server bool jacketarmour_allowBackpacks = true;
-server int jacketarmour_greenarmour_spawn_bias = 19;
-server int jacketarmour_bluearmour_spawn_bias = 19;
+server float jacketarmour_greenarmour_spawn_bias = 0.05;
+server float jacketarmour_bluearmour_spawn_bias = 0.05;
 server bool jacketarmour_persistent_spawning = false;
 
 // Cacodemon Plushies
 server bool cacoplush_allowBackpacks = true;
 
 // Pogo Stick
-server int pogostick_spawn_bias = 19;
+server float pogostick_spawn_bias = 13;
 server bool pogostick_persistent_spawning = false;
 
 // Hoverboard
-server int hoverboard_spawn_bias = 19;
+server float hoverboard_spawn_bias = 19;
 server bool hoverboard_persistent_spawning = false;
 

@@ -107,6 +107,7 @@ MENU_RDCTEXT1 = "Control the spawn rate of Radi-Cola on Health Bonuses";
 MENU_RDCTEXT2 = "Control the spawn rate of Radi-Cola on Medikits";
 MENU_RDCTEXT3 = "Control the spawn rate of Radi-Cola on Stimpacks";
 MENU_RDCTEXT4 = "Control the spawn rate of Radi-Cola on Gore Bits";
+MENU_RDCTEXT5 = "Control the spawn rate of Radi-Cola on Casing Bits";
 MENU_RDCBACKPACK = "Control whether the Radi-Cola spawns in Backpacks";
 
 MENU_RDCLORE1 = "stuff";

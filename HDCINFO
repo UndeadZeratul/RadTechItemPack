@@ -1,0 +1,69 @@
+// Backpack Spawn Pool Filters
+addBPSpawnPoolFilter => { "name": "HDFieldMedicKit", "allowed": "#fieldmedic_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "HDFirstAidSpray", "allowed": "#firstaidspray_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "HDRadiCola", "allowed": "#radicola_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "AntiGravBoots", "allowed": "#gravboots_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "ProtectiveRadBoots", "allowed": "#radboots_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "HDLeatherArmour", "allowed": "#jacketarmour_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "JacketArmour", "allowed": "#jacketarmour_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "HDHalfPack", "allowed": "#halfpack_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "CacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "LesbianPrideCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "GayPrideCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "BisexualCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "TransPrideCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "AcePrideCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "AroCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "AgenderPrideCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "EnbyPrideCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "PanPrideCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "UkraineCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "TwoEyedCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RenegadeCacoPlushDoll", "allowed": "#cacoplush_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "FeloniousBolus", "allowed": "#cacoplush_allowBackpacks" }
+
+// Spawn Table Entries
+addSpawnTableSingleEntry => { "tableName": "StimpackReplaces", "name": "HDFieldMedicKit", "weight": "#fieldmedic_stimpack_spawn_bias", "persists": "#fieldmedic_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "MedikitReplaces", "name": "HDFieldMedicKit", "weight": "#fieldmedic_medikit_spawn_bias", "persists": "#fieldmedic_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "StimpackReplaces", "name": "HDFirstAidSpray", "weight": "#firstaidspray_stimpack_spawn_bias", "persists": "#firstaidspray_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "MedikitReplaces", "name": "HDFirstAidSpray", "weight": "#firstaidspray_medikit_spawn_bias", "persists": "#firstaidspray_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "BackpackReplaces", "name": "WildHalfPack", "weight": "#halfpack_spawn_bias", "persists": "#halfpack_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "GreenArmorReplaces", "name": "HDLeatherArmour", "weight": "#jacketarmour_greenarmour_spawn_bias", "persists": "#jacketarmour_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "BlueArmorReplaces", "name": "HDLeatherArmour", "weight": "#jacketarmour_bluearmour_spawn_bias", "persists": "#jacketarmour_persistent_spawning" }
+
+newSpawnTable => { "spawnName": "HDHealingPotion", "tableName": "Radtech.HealingPotionSpawns", "replaces": "false" }
+newSpawnTable => { "spawnName": "PortableStimpack", "tableName": "Radtech.StimpackSpawns", "replaces": "false" }
+newSpawnTable => { "spawnName": "PortableMedikit", "tableName": "Radtech.MedikitSpawns", "replaces": "false" }
+newSpawnTable => { "spawnName": "HDGoreBits", "tableName": "Radtech.GoreBitsSpawns", "replaces": "false" }
+newSpawnTable => { "spawnName": "HDCasingBits", "tableName": "Radtech.CasingBitsSpawns", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.HealingPotionSpawns", "name": "RadiColaSpawn", "chance": "#radicola_healthbonus_spawn_bias", "persists": "#radicola_persistent_spawning", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.StimpackSpawns", "name": "RadiColaSpawn", "chance": "#radicola_stimpack_spawn_bias", "persists": "#radicola_persistent_spawning", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.MedikitSpawns", "name": "RadiColaSpawn", "chance": "#radicola_medikit_spawn_bias", "persists": "#radicola_persistent_spawning", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.GoreBitsSpawns", "name": "RadiColaSpawn", "chance": "#radicola_gorebits_spawn_bias", "persists": "#radicola_persistent_spawning", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.CasingBitsSpawns", "name": "RadiColaSpawn", "chance": "#radicola_casingbits_spawn_bias", "persists": "#radicola_persistent_spawning", "replaces": "false" }
+
+newSpawnTable => { "spawnName": "HDSoulsphere", "tableName": "Radtech.SoulsphereSpawns", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.SoulsphereSpawns", "name": "AGBootsSpawn", "chance": "#gravboots_spawn_bias", "persists": "#gravboots_persistent_spawning", "replaces": "false" }
+
+newSpawnTable => { "spawnName": "PortableRadsuit", "tableName": "Radtech.RadsuitSpawns", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.RadsuitSpawns", "name": "RadBootsSpawn", "chance": "#radboots_spawn_bias", "persists": "#radboots_persistent_spawning", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.RadsuitSpawns", "name": "HoverboardSpawn", "chance": "#hoverboard_spawn_bias", "persists": "#hoverboard_persistent_spawning", "replaces": "false" }
+addSpawnTableSingleEntry => { "tableName": "Radtech.RadsuitSpawns", "name": "PogoStickSpawn", "chance": "#pogostick_spawn_bias", "persists": "#pogostick_persistent_spawning", "replaces": "false" }
+
+// AceCorp Weapon Crate Filters
+addWeaponCrateBlacklist => { "name": "HDPlushDummy" }
+addWeaponCrateBlacklist => { "name": "CacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "LesbianPrideCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "GayPrideCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "BisexualCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "TransPrideCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "AcePrideCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "AroCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "AgenderPrideCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "EnbyPrideCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "PanPrideCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "UkraineCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "TwoEyedCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "RenegadeCacoPlushDoll" }
+addWeaponCrateBlacklist => { "name": "FeloniousBolus" }
+addWeaponCrateBlacklist => { "name": "HDPocketRadio" }

@@ -1,8 +1,5 @@
 version "4.10"
 
-// Event Handler
-#include "zscript/RTIP-Event-Handler.zsc"
-
 // Medical
 #include "zscript/FieldMedicationKit.zsc"
 #include "zscript/FirstAidSpray.zsc"
