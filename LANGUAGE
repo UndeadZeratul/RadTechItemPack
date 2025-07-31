@@ -167,6 +167,57 @@ MENU_HOVERBOARDLORE1 = "A futuristic revamp of the classic skateboard. It allows
 MENU_HOVERBOARDLORE2 = "the rider to swiftly glide around any surface with ease. It cannot";
 MENU_HOVERBOARDLORE3 = "be used with a backpack since the extra weight throws off your balance.";
 
+// Merchant Store Entries
+
+// Anti-Gravity Boots
+MERCH_CAT_ANTIGRAVBOOTS           = "RadTech Inc.";
+MERCH_TAG_ANTIGRAVBOOTS           = "Anti-Gravity Boots";
+MERCH_FLAVOR_ANTIGRAVBOOTS        = "Powered by radiation! I'm sure they're safe.";
+
+// Anti-Radiation Boots
+MERCH_CAT_ANTIRADBOOTS            = "RadTech Inc.";
+MERCH_TAG_ANTIRADBOOTS            = "Anti-Radiation Boots";
+MERCH_FLAVOR_ANTIRADBOOTS         = "When you don't want your feet getting irradiated.";
+
+// Cacodemon Plush Doll (Radtech)
+MERCH_CAT_CACOPLUSH               = "RadTech Inc.";
+MERCH_TAG_CACOPLUSH               = "Cacodemon Plush Doll";
+MERCH_FLAVOR_CACOPLUSH            = "Come on, look at that face. How can you say no to that?";
+
+// Field Medic Kit
+MERCH_CAT_FIELDMEDICKIT           = "RadTech Inc.";
+MERCH_TAG_FIELDMEDICKIT           = "Field Medical Kit";
+MERCH_FLAVOR_FIELDMEDICKIT        = "Better than improvising it yourself.";
+
+// First Aid Spray
+MERCH_CAT_FIRSTAIDSPRAY           = "RadTech Inc.";
+MERCH_TAG_FIRSTAIDSPRAY           = "First Aid Spray";
+MERCH_FLAVOR_FIRSTAIDSPRAY        = "A secret recipe of herbs and spices.";
+
+// Half-Pack
+MERCH_CAT_HALFPACK                = "RadTech Inc.";
+MERCH_TAG_HALFPACK                = "Half-Pack";
+MERCH_FLAVOR_HALFPACK             = "May or may not contain anything useful inside.";
+
+// Pocket lamp/Pocket lamp selfcharging
+MERCH_CAT_POCKETLAMP              = "Radtech Inc.";
+MERCH_TAG_POCKETLAMP              = "Pocket lamp";
+MERCH_FLAVOR_POCKETLAMP           = "Don't break it like that hatman drom Dusk.";
+
+// Radi-Cola
+MERCH_CAT_RADICOLA                = "RadTech Inc.";
+MERCH_TAG_RADICOLA                = "Radi-Cola";
+MERCH_FLAVOR_RADICOLA             = "Put some pep in your step with a refreshing energy drink!";
+
+// Radi-Radio
+MERCH_CAT_RADIRADIO               = "RadTech Inc.";
+MERCH_TAG_RADIRADIO               = "UAC Pocket Radio";
+MERCH_FLAVOR_RADIRADIO            = "Not much on the airwaves these days...";
+
+// Leather Armour
+MERCH_CAT_LEATHERARMOUR           = "RadTech Inc.";
+MERCH_TAG_LEATHERARMOUR           = "Leather Armor";
+MERCH_FLAVOR_LEATHERARMOUR        = "Goes over your other armor.";
 
 
 

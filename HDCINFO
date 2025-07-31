@@ -67,3 +67,16 @@ addWeaponCrateBlacklist => { "name": "TwoEyedCacoPlushDoll" }
 addWeaponCrateBlacklist => { "name": "RenegadeCacoPlushDoll" }
 addWeaponCrateBlacklist => { "name": "FeloniousBolus" }
 addWeaponCrateBlacklist => { "name": "HDPocketRadio" }
+
+// Merchant Store Entries
+newMerchantStoreItem => { "enabled": "#hdm_enable_cacoplush", "type": "item", "category": "$MERCH_CAT_CACOPLUSH", "item": "CacoPlushDoll", "icon": "CCPLA0", "displayName": "$MERCH_TAG_CACOPLUSH", "basePrice": "20", "flavorText": "$MERCH_FLAVOR_CACOPLUSH" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_radicola", "type": "item", "category": "$MERCH_CAT_RADICOLA", "item": "HDRadiCola", "icon": "RDCLA0", "displayName": "$MERCH_TAG_RADICOLA", "basePrice": "2", "flavorText": "$MERCH_FLAVOR_RADICOLA" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_antigravboots", "type": "item", "category": "$MERCH_CAT_ANTIGRAVBOOTS", "item": "AntiGravBoots", "icon": "AGRVA0", "displayName": "$MERCH_TAG_ANTIGRAVBOOTS", "basePrice": "150", "flavorText": "$MERCH_FLAVOR_ANTIGRAVBOOTS" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_antiradboots", "type": "item", "category": "$MERCH_CAT_ANTIRADBOOTS", "item": "ProtectiveRadBoots", "icon": "RDBTA0", "displayName": "$MERCH_TAG_ANTIRADBOOTS", "basePrice": "100", "flavorText": "$MERCH_FLAVOR_ANTIRADBOOTS" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_fieldmedickit", "type": "item", "category": "$MERCH_CAT_FIELDMEDICKIT", "item": "HDFieldMedicKit", "icon": "FMKTA0", "displayName": "$MERCH_TAG_FIELDMEDICKIT", "basePrice": "10", "flavorText": "$MERCH_FLAVOR_FIELDMEDICKIT" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_firstaidspray", "type": "item", "category": "$MERCH_CAT_FIRSTAIDSPRAY", "item": "HDFirstAidSpray", "icon": "FAIDA0", "displayName": "$MERCH_TAG_FIRSTAIDSPRAY", "basePrice": "10", "flavorText": "$MERCH_FLAVOR_FIRSTAIDSPRAY" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_halfpack", "type": "item", "category": "$MERCH_CAT_HALFPACK", "item": "WildHalfPack", "icon": "HPAKA0", "displayName": "$MERCH_TAG_HALFPACK", "basePrice": "120", "flavorText": "$MERCH_FLAVOR_HALFPACK" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_radiradio", "type": "item", "category": "$MERCH_CAT_RADIRADIO", "item": "HDPocketRadio", "icon": "RDIOA0", "displayName": "$MERCH_TAG_RADIRADIO", "basePrice": "120", "flavorText": "$MERCH_FLAVOR_RADIRADIO" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_pocketlamp", "type": "item", "category": "$MERCH_CAT_POCKETLAMP", "item": "HDPocketLamp", "icon": "plmpa0", "displayName": "$MERCH_TAG_POCKETLAMP", "basePrice": "100", "flavorText": "$MERCH_FLAVOR_POCKETLAMP" }
+
+newMerchantStoreItem => { "enabled": "#hdm_enable_leatherarmour", "type": "item", "category": "$MERCH_CAT_LEATHERARMOUR", "item": "HDLeatherArmour", "icon": "JAKTA0", "displayName": "$MERCH_TAG_LEATHERARMOUR", "basePrice": "100", "flavorText": "$MERCH_FLAVOR_LEATHERARMOUR" }

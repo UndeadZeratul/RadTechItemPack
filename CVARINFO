@@ -53,3 +53,14 @@ server bool pogostick_persistent_spawning = false;
 server float hoverboard_spawn_bias = 19;
 server bool hoverboard_persistent_spawning = false;
 
+// Merchant Store Filters
+server bool hdm_enable_antigravboots = true;
+server bool hdm_enable_antiradboots = true;
+server bool hdm_enable_cacoplush = true;
+server bool hdm_enable_fieldmedickit = true;
+server bool hdm_enable_firstaidspray = true;
+server bool hdm_enable_halfpack = true;
+server bool hdm_enable_leatherarmour = true;
+server bool hdm_enable_pocketlamp = true;
+server bool hdm_enable_radicola = true;
+server bool hdm_enable_radiradio = true;
