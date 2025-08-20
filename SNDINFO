@@ -1,10 +1,27 @@
+//Radi-Cola
+
+// can opening
 misc/radicola     "sounds/radicola.ogg"    $limit misc/radicola 6
 
+// can bouncing
 misc/emptycan     "sounds/emptycan.ogg"    $limit misc/emptycan 6
 
+//First Aid Spray
+
+// healing spray
 firstaidcan/spray   fa_spray
 
+//Cacodemon Plushies
+
+// plushie squeak
 plush/squeak ccsqueak
+
+//Felonious Bolus bounce
 felonious/bolus fbbounce
 
+//Pogo Stick bounce
 weapons/pogo pogojump
+
+//Hoverboard hum
+misc/hoverboard     hoverhum
+$volume     misc/hoverboard     0.1
