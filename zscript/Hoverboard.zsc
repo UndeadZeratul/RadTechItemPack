@@ -3,7 +3,7 @@
 //-------------------------------------------------
 
 const STRIP_SKATES=5000;
-const ENC_SKATES=55;
+const ENC_SKATES=85; //55 seemed a bit too light
 const HDLD_SKATES="HVB";
 
 class DummyBoard:Actor{
@@ -111,6 +111,11 @@ class Hoverboard:HDPickup{
 		hdpickup.bulk ENC_SKATES;
 		tag "$TAG_HOVERBOARD";
 		hdpickup.refid HDLD_SKATES;
+	}
+
+	override string PickupMessage() {
+	    String pickupmessage = Stringtable.Localize("$PICKUP_GRAVBOOTS"); 
+	    return pickupmessage;
 	}
 
 	override void DetachFromOwner(){
