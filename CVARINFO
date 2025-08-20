@@ -47,3 +47,8 @@ server bool cacoplush_allowBackpacks = true;
 // Pogo Stick
 server int pogostick_spawn_bias = 19;
 server bool pogostick_persistent_spawning = false;
+
+// Hoverboard
+server int hoverboard_spawn_bias = 19;
+server bool hoverboard_persistent_spawning = false;
+
