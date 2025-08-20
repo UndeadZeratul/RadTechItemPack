@@ -114,7 +114,7 @@ class Hoverboard:HDPickup{
 	}
 
 	override string PickupMessage() {
-	    String pickupmessage = Stringtable.Localize("$PICKUP_GRAVBOOTS"); 
+	    String pickupmessage = Stringtable.Localize("$PICKUP_HOVERBOARD"); 
 	    return pickupmessage;
 	}
 
