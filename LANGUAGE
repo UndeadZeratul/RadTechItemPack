@@ -14,6 +14,7 @@ TAG_JACKET = "Leather Armour";
 TAG_RADIRADIO = "UAC Pocket Radio";
 TAG_CACOPLUSHIES = "Cacodemon Plushie";
 TAG_POGOSTICK = "Pogo Stick";
+TAG_HOVERBOARD = "Hoverboard";
 
 // Pickup messages
 PICKUP_RADICOLA = "Picked up a can of Radi-Cola.";
@@ -30,6 +31,8 @@ PICKUP_FIELDMEDICKIT_EMPTY = "Picked up an empty Field Medic Kit";
 
 PICKUP_RADIRADIO = "Picked up a UAC Pocket Radio. Rock some tunes!";
 PICKUP_POGOSTICK = "You got the pogo stick!";
+PICKUP_HOVERBOARD = "You got the hoverboard!";
+
 
 RADICOLA_HELPTEXT = "\cd<<< \cjRADI-COLA \cd>>>\c-\n\nRadi-Cola helps provide a quick\nboost of energy and strength\nfor marines on the go.\n\n\Press altfire to share with a friend.\n\n\cgDO NOT MIX WITH STIMPACKS.\n\cgDRINK RESPONSIBLY.";
 RADICOLA_NONEED = "They don't want any.";
@@ -151,6 +154,13 @@ MENU_POGOSTICKLORE1 = "stuff";
 MENU_POGOSTICKLORE2 = "goes";
 MENU_POGOSTICKLORE3 = "here uwu";
 
+// Hoverboard
+MENU_TITLEHOVERBOARD = "------ Hoverboard Options ------";
+MENU_HOVERBOARDTEXT1 = "Control the spawn rate of Hoverboards with Radsuits";
+
+MENU_HOVERBOARDLORE1 = "A futuristic revamp of the classic skateboard. It allows";
+MENU_HOVERBOARDLORE2 = "the rider to swiftly glide around any surface with ease. It cannot";
+MENU_HOVERBOARDLORE3 = "be used with a backpack since the extra weight throws off your balance.";
 
 
 
