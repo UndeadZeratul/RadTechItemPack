@@ -94,6 +94,15 @@ sprite FAIDD0, 27, 11
 	patch FAIDC0,0,0
 }
 
+//Hoverboard HUD sprite 
+//(drawn by Swampyrad)
+
+sprite HOVRA0, 32, 16{
+	offset 16, 16
+	patch HOVRA0,0,0
+}
+
+
 //Cacodemon plush sprites created by Swampyrad
 //Renegade plush sprite edit by BenitezClance4
 
