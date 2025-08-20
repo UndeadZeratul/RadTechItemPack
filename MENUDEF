@@ -29,6 +29,8 @@ OptionMenu RadTechItemPack
     StaticText ""
     Submenu "$TAG_CACOPLUSHIES", "CacoPlush", 0, 1
     StaticText ""
+	Submenu "$TAG_HOVERBOARD", "Hoverboard", 0, 1
+    StaticText ""
     Submenu "$TAG_POGOSTICK", "PogoStick", 0, 1
     StaticText ""
     StaticText "--- Reset Options ---", "red"
@@ -270,6 +272,34 @@ OptionMenu AntiRadBoots
 	StaticText "$MENU_RADBOOTSLORE3", "white"
 }
 
+
+OptionMenu Hoverboard
+{
+    Title "$MENU_TITLEHOVERBOARD"
+   	StaticText "$MENU_NOTICE", "Green"
+    StaticText  "$MENU_SUPPRESS1", "white"
+    StaticText  "$MENU_SUPPRESS2", "white"
+    StaticText ""
+	StaticText "$MENU_SPAWNOPTIONS", "Green"
+    StaticText  "$MENU_HOVERBOARDTEXT1", "white"
+	Option "$MENU_WEPSPAWNRATE", "hoverboard_spawn_bias", "DropBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar hoverboard_spawn_bias"
+	StaticText ""
+    StaticText  "$MENU_REPLACEAFTERMAPLOAD", "white"
+	Option "$MENU_PERSISTENCY", "hoverboard_persistent_spawning", "OnOff"
+	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar hoverboard_persistent_spawning"
+ 	StaticText ""
+   	StaticText ""
+	StaticText "$MENU_RESETOPTIONS", "Green"
+	SafeCommand "$MENU_RESETALLOPTIONS", "hoverboard_reset_cvars"
+	StaticText ""
+	StaticText "$MENU_LORETAG", "Green"
+	StaticText ""
+	StaticText "$MENU_HOVERBOARDLORE1", "white"
+	StaticText "$MENU_HOVERBOARDLORE2", "white"
+	StaticText "$MENU_HOVERBOARDLORE3", "white"
+}
+
 OptionMenu PogoStick
 {
     Title "$MENU_TITLEPOGOSTICK"
@@ -296,7 +326,6 @@ OptionMenu PogoStick
 //	StaticText "$MENU_POGOSTICKLORE2", "white"
 //	StaticText "$MENU_POGOSTICKLORE3", "white"
 }
-
 
 OptionMenu HalfPack
 {
