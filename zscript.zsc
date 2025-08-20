@@ -13,6 +13,7 @@ version "4.10"
 #include "zscript/Anti-RadiationBoots.zsc"
 #include "zscript/Anti-GravityBoots.zsc"
 #include "zscript/Halfpack.zsc"
+#include "zscript/Hoverboard.zsc"
 
 // Misc
 #include "zscript/Radi-Radio.zsc"
