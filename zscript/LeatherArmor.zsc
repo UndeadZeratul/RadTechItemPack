@@ -11,6 +11,7 @@ class HDLeatherArmour:HDMagAmmo{
 		+inventory.invbar
 		+hdpickup.cheatnogive
 		+hdpickup.notinpockets
+        +hdpickup.droptranslation
 		+inventory.isarmor
 		inventory.amount 1;
 		hdmagammo.maxperunit LEATHERARMOUR;
@@ -246,11 +247,11 @@ class HDLeatherArmourWorn:HDArmourWorn{
 			armoursprite,armourback,
 			durability,LEATHERARMOUR,
 			coords,-1,sb.SHADER_VERT,
-			gzflags
+			gzflags|sb.DI_TRANSLATABLE
 		);
 		sb.drawstring(
 			sb.pnewsmallfont,sb.FormatNumber(durability),
-			coords+(10,-17),gzflags|sb.DI_ITEM_CENTER|sb.DI_TEXT_ALIGN_RIGHT,
+			coords+(10,-25),gzflags|sb.DI_ITEM_CENTER|sb.DI_TEXT_ALIGN_RIGHT,
 			Font.CR_DARKGRAY,scale:(0.5,0.5)
 		);
 	}
@@ -280,6 +281,7 @@ class HDLeatherArmourWorn:HDArmourWorn{
 		tossed.mags.clear();
 		tossed.mags.push(durability);
 		tossed.amount=1;
+        if(tossed.bdroptranslation)tossed.translation=owner.translation;
 		HDLeatherArmour.JacketChangeEffect(owner,30);
 		destroy();
 		return tossed;
