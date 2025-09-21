@@ -63,11 +63,13 @@ class WornAntiGravBoots:HDDamageHandler{
     //the boots should recharge if you're not moving
 		if(hp
 		   &&gravboots_charge>0
-		   &&(hp.vel.x>1||hp.vel.y>1||!(hp.vel.z==0))
+		   &&(hp.vel.x>2||hp.vel.y>2
+            ||hp.vel.x<-2||hp.vel.y<-2
+            ||!(hp.vel.z==0))
 		  ){gravboots_charge--;
 
-      //if the boots have a charge, they'll 
-      //lower your gravity
+      //if the boots have a charge,  
+      //they'll lower your gravity
 			if(!gravboots_charge<1){
 				owner.gravity=HDCONST_GRAVITY/3;
 			}
